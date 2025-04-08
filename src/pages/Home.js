@@ -1,10 +1,12 @@
 import React from 'react'
 import HomeCard from '../components/HomeCard'
 import About from './About'
+import Blog from './Blog'
+
 const Home = () => {
   return (
     <>
-    {/* Home Section */}
+      {/* Home Section */}
       <section className='home section' id='home'>
         <img src={require('../assets/images/Foto 2.jpeg.jpg')} alt='home img' className="home__bg"></img>
         <div className="home__shadow"></div>
@@ -41,7 +43,7 @@ const Home = () => {
 
       {/* MoreInfo Section */}
       <section className="explore section" id="explore">
-        
+        <Blog />
       </section>
       {/* MoreInfo Section Ends*/}
 
